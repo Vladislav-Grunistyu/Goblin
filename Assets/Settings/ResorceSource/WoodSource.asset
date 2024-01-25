@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe0bc83dcbec14a409c4fd26ac394caf, type: 3}
+  m_Name: WoodSource
+  m_EditorClassIdentifier: 
+  stages:
+  - visualDisplayStage: {fileID: 900531937762036679, guid: 11ad7ab17d2ca8c44818856eff4b8ab2, type: 3}
+  - visualDisplayStage: {fileID: 5932671250692246439, guid: 85470a08ae55c5e448118caaaebe2e4f, type: 3}
+  - visualDisplayStage: {fileID: 4017677431545247072, guid: 63f40d4f35e4d9845a51586a23a89245, type: 3}
+  resourceType: {fileID: 11400000, guid: bea56ec9f4eb787468db9ad436923cd4, type: 2}
+  miningSpeed: 2
+  animationForce: 0.5
+  resourcePerHit: 2
+  fullRecoveryTime: 7

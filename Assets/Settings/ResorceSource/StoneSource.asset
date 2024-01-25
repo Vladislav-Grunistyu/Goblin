@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe0bc83dcbec14a409c4fd26ac394caf, type: 3}
+  m_Name: StoneSource
+  m_EditorClassIdentifier: 
+  stages:
+  - visualDisplayStage: {fileID: 2205518386998129719, guid: feecf77f357878f4ba8b98cef1f266fe, type: 3}
+  - visualDisplayStage: {fileID: 1820122169661189338, guid: 784932abd14345d4096130cbb24f7d95, type: 3}
+  - visualDisplayStage: {fileID: 2463456284485132433, guid: c696467c89fe357428c4e23978bb5724, type: 3}
+  resourceType: {fileID: 11400000, guid: 67f293af3736c3b48bb9e606ea3468c5, type: 2}
+  miningSpeed: 0.5
+  animationForce: 1.5
+  resourcePerHit: 1
+  fullRecoveryTime: 20
